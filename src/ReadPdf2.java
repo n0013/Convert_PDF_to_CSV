@@ -9,6 +9,7 @@ public class ReadPdf2
 {
     public static void main(String args[]) throws IOException
     {
+        System.out.println("Go!");
         try
         {
             PrintWriter csvFile = new PrintWriter("D:\\Java Project\\Convert pdf to cvs\\files\\data.csv");
